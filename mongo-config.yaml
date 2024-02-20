@@ -1,0 +1,7 @@
+apiVersion: v1
+#this is what determines the file type
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  mongo-url: #no idea
